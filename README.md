@@ -12,19 +12,22 @@ using tools like ReClass, Cheat Engine, & IDA Pro.
 The Windows API is used to perform external memory manipulation. As such,
 this source code **must be compiled and run on a Windows machine.**
 
-Written & tested in C++17 on Windows 10.
+Written & tested in C++14 on Windows 10.
 
 ## Usage
 
 1. Compile the source code into a binary.
-    `$ g++ -o l4d2trainer.out l4d2trainer.cpp`
+    `$ g++ -o l4d2trainer.out l4d2trainer.cpp mem.cpp`
 
-2. Execute the binary.
+2. Make the binary executable.
+    `$ chmod 755 l4d2trainer.out`
+
+3. Execute the binary.
     `$ ./l4d2trainer.out`
 
-3. Open L4D2.
+4. Open L4D2.
 
-4. Any time during gameplay, press the `Z` key to toggle infinite ammo on/off, and press the `X` key to toggle infinite health on/off.
+5. Any time during gameplay, press the keys displayed by the trainer to toggle cheats on/off.
 
 
 ## Note
